@@ -1,3 +1,4 @@
+/* 
 .App {
   text-align: center;
 }
@@ -35,4 +36,108 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Mystery+Quest&family=Nanum+Myeongjo&family=Tillana&display=swap');
+
+/*
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Tillana', cursive;
+font-family: 'Akronim', cursive;
+font-family: 'Mystery Quest', cursive; 
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, a,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 120%;
+	vertical-align: baseline;
+    text-decoration: none;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+:root{
+    --bg-color: #ea9ab2;
+    --second-bg-color: #e27396;
+    --text-color: #eaf2d7;
+    --main-color: #fffffa;
+    --hover-color: #e4c1f9;
+}
+body{
+    background:var(--bg-color);
+    color: var(--text-color);
+}
+/* body a{
+    color: var(--text-color);
+} */
+
+/*
+ ---- HEADER ----
+*/
+header{
+padding: 50px ;
+display: flex;
+justify-content: space-between;
+text-align: center;
+flex-wrap: wrap;
+}
+
+.logo{
+border: 2px;
+font-family: 'Akronim', cursive;
+font-size: 60px;
+color: var(--main-color);
+font-weight: 600;
+}
+
+.navbar{
+border:2px;
+display: flex;
+gap: 2 rem;
+flex-wrap: wrap;
+}
+.navbar a{
+    font-size: 1 rem;
+    color: var(--text-color);
+}
+
+.navbar a:hover,
+.navbar a:active{
+    color: var(--hover-color);
+    text-decoration: underline;
 }
